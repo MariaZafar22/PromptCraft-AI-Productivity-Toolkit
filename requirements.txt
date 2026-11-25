@@ -1,0 +1,3 @@
+# Only needed for the Hugging Face backend (HFBackend). The core toolkit has no dependencies.
+transformers
+torch

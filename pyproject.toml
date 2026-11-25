@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "promptcraft-ai-productivity-toolkit"
+version = "1.0.0"
+description = "Reusable prompt templates, JSON output helpers, productivity workflows and a prompt-testing harness for LLMs."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+keywords = ["prompt-engineering", "llm", "generative-ai", "productivity", "nlp"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = []
+
+[project.optional-dependencies]
+hf = ["transformers>=4.30", "torch"]
+
+[project.scripts]
+ai-toolkit = "ai_productivity_toolkit.cli:main"
+
+[tool.setuptools]
+packages = ["ai_productivity_toolkit"]
