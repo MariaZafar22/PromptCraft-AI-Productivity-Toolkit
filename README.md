@@ -252,8 +252,9 @@ Issues and pull requests are welcome. Please run `python -m unittest discover -s
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+MIT. 
+## Author
 
----
+**MariaZafar22**
 
-Built as the Module 02 project (Prompt Engineering and AI Productivity) of the Codomax Digital Solutions AI internship.
+GitHub: [@MariaZafar22](https://github.com/MariaZafar22)
